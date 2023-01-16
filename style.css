@@ -396,14 +396,14 @@ img {
 
     }
     .article1 h1 {
-        font-size: 55px;
+        font-size: 50px;
         width: 100%;
         text-align: center;
         
 
     }
     .p1 {
-        width: 100%;
+        width: 95%;
     }
     .img1 {
         width: 96%;
@@ -487,19 +487,100 @@ img {
         justify-content: center;
         margin-left: 0%;
         width: 100%;
-        margin: 30% 1%;
+        margin: 30% 1% 2% 1%;
     }
     .rectangle2 {
         align-items: center;
         justify-content: center;
-        top: 48%;
+        top: 52%;
         left: 25%;
         width: 55%;
     }
-    .facts {
+    .facts,.achivements {
         display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0%;
+        width: 100%;
+        height: auto;
+
+    }
+    .achive {
+        border: 1px solid orange;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-left: 10%;
+        margin-bottom: 5%;
+        height: auto;
+        width: 50%;
+    }
+    .happy_clients {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        margin-left: 1%;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .sponsors {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        margin-left: 1%;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .sponsor-article {
+        margin: 2%;
+        width: 98%;
     }
 
+    .sponsor-logos {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        margin-left: 1%;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .sponsor {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-left: 10%;
+        margin-bottom: 8%;
+        height: auto;
+        width: 50%;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        margin-left: 1%;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .footer-div{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        margin-left: 0%;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
 
     
 }
