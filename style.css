@@ -311,3 +311,24 @@ img {
     margin-bottom: 10%;
 
   }
+
+  /* Css Animation */
+  .zoom {
+    transition: transform .2s;
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    transform: scale(2.5);
+    padding: 20%;
+  }
+
+  /* Media Queries */
+
+  /* Mobile Devices */
+
+  @media only screen and (max-width: 688px) {
+    body {
+        width: 100%;
+    }
+  }
